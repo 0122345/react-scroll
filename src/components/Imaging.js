@@ -2,11 +2,11 @@
 export const data = [
     {
         id: 1,
-        img: ".img\wallpaperflare.com_wallpaper.jpg"
+        img: ".img/wallpaperflare.com_wallpaper.jpg"
     },
     {
         id: 2,
-        img: ".img\wallpaperflare.com_wallpaper\(1\).jpg"
+        img: ".img/wallpaperflare.com_wallpaper/(1/).jpg"
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export const data = [
         img: ".img\wallpaperflare.com_wallpaper\(6\).jpg"
     },
     {
-        id: 8,
+        id: 8, 
         img: ".img\wallpaperflare.com_wallpaper\(7\).jpg"
     }
 ]
