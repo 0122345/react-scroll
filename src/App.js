@@ -1,6 +1,7 @@
  import {MdChevronLeft,MdChevronRight} from 'react-icons/md';
-import { data } from "./components/Imaging";
+ import { data } from './components/Imaging';
 
+ 
 function App() {
     
   const slideLeft = () => {
@@ -19,13 +20,13 @@ function App() {
 
   return (
      <>
-     <img className='w-full bg-slate-500 h-[360px] bg-auto object-contain' src="./img/wallpaperflare.com_wallpaper(6).jpg" alt="" />
+     <img className='w-full bg-black h-[360px] bg-auto object-contain' src="./img/wallpaperflare.com_wallpaper(6).jpg" alt="" />
 
      <div className='relative flex items-center'>
       <MdChevronLeft onClick={slideLeft} className='opacity-50 cursor-pointer hover:opacity-100'  size={50} />
       <div 
       id="slider"
-      className='w-full h-full overflow-scroll scroll whitespace-nowrap scroll-smooth  scrollbar-hide md:scrollbar-default'
+      className='w-full h-full overflow-hidden  scroll whitespace-nowrap scroll-smooth  scrollbar-hide md:scrollbar-default'
         >
          {data.map((item) => {
       return  <img 
